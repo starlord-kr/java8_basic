@@ -1,4 +1,4 @@
-package com.joochang.java8;
+package com.joochang.stream;
 
 import java.util.function.Function;
 import java.util.stream.LongStream;
@@ -7,6 +7,9 @@ import java.util.stream.Stream;
 /**
  * Java8 in Action
  * 7. 병렬 데이터 처리와 성능
+ *
+ * for문과 Stream.iterate에서 parallel 사용 시 주의점
+ *
  */
 public class ParallelStream {
 
